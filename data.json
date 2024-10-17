@@ -119,79 +119,78 @@
       "definition": "An attack where malicious links or buttons are disguised as legitimate actions to trick users into clicking on them.",
       "law": "GDPR applies when user data is compromised; CFAA for deceptive online practices.",
       "solution": "Use X-Frame-Options header to prevent clickjacking, use Content Security Policy (CSP), educate users on suspicious behavior."
+    },
+    {
+      "term": "credit card fraud",
+      "definition": "Credit card fraud involves the unauthorized use of someone's credit card information to make purchases or withdraw money.",
+      "laws": "Credit card fraud is punishable under Section 420 of the IPC and Section 66C of the IT Act.",
+      "solution": "1. Report to your bank immediately.\n2. Cancel the compromised card and request a new one.\n3. Monitor your account for unauthorized transactions.\n4. Report to the local cyber crime cell."
+    },
+    {
+      "term": "child pornography",
+      "definition": "Child pornography involves the distribution, possession, or creation of sexually explicit material involving minors.",
+      "laws": "Child pornography is punishable under the Protection of Children from Sexual Offences (POCSO) Act, 2012, and Section 67B of the IT Act.",
+      "solution": "1. Report to the National Center for Missing & Exploited Children (NCMEC).\n2. Report to the local cyber crime cell.\n3. Do not share or distribute the material.\n4. Seek legal counsel if needed."
+    },
+    {
+      "term": "data breach",
+      "definition": "A data breach involves unauthorized access to and retrieval of sensitive data by an individual, group, or software system.",
+      "laws": "Data breaches are covered under Section 43A of the IT Act, which deals with compensation for failure to protect data.",
+      "solution": "1. Inform affected individuals and organizations.\n2. Secure the breached systems.\n3. Report to the local cyber crime cell.\n4. Implement stronger security measures."
+    },
+    {
+      "term": "cybersquatting",
+      "definition": "Cybersquatting involves registering, trafficking in, or using a domain name with bad faith intent to profit from the goodwill of a trademark belonging to someone else.",
+      "laws": "Cybersquatting is punishable under the Trademark Act, 1999.",
+      "solution": "1. File a complaint with the World Intellectual Property Organization (WIPO).\n2. Report to the local cyber crime cell.\n3. Seek legal action to reclaim the domain."
+    },
+    {
+      "term": "revenge porn",
+      "definition": "Revenge porn involves the distribution of sexually explicit images or videos of individuals without their consent.",
+      "laws": "Revenge porn is punishable under Section 66E of the IT Act, which deals with the violation of privacy.",
+      "solution": "1. Report to the platform where the content is shared.\n2. Seek legal counsel to take down the content.\n3. Report to the local cyber crime cell.\n4. Seek support from friends, family, or a counselor."
+    },
+    {
+      "term": "fake news",
+      "definition": "Fake news involves the dissemination of false or misleading information presented as news.",
+      "laws": "Fake news is punishable under Section 505 of the IPC, which deals with statements conducing to public mischief.",
+      "solution": "1. Verify the information from reliable sources.\n2. Report to the platform where the fake news is shared.\n3. Report to the local cyber crime cell.\n4. Educate others about the misinformation."
+    },
+    {
+      "term": "online grooming",
+      "definition": "Online grooming involves an adult befriending a child online with the intention of sexually abusing or exploiting them.",
+      "laws": "Online grooming is punishable under the POCSO Act, 2012.",
+      "solution": "1. Report to the platform where the grooming occurs.\n2. Report to the local cyber crime cell.\n3. Educate children about online safety.\n4. Seek support from friends, family, or a counselor."
+    },
+    {
+      "term": "SIM swapping",
+      "definition": "SIM swapping involves fraudulently transferring a victim's phone number to a new SIM card to gain access to their accounts.",
+      "laws": "SIM swapping is punishable under Section 66D of the IT Act, which deals with cheating by personation.",
+      "solution": "1. Report to your mobile service provider.\n2. Secure your accounts with two-factor authentication.\n3. Report to the local cyber crime cell.\n4. Monitor your accounts for unauthorized activity."
+    },
+    {
+      "term": "cyber espionage",
+      "definition": "Cyber espionage involves the use of cyber attacks to gain unauthorized access to confidential information, typically for political or military purposes.",
+      "laws": "Cyber espionage is punishable under Section 66F of the IT Act, which deals with cyber terrorism.",
+      "solution": "1. Strengthen security measures (e.g., encryption, firewalls).\n2. Report to the relevant government authorities.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any further unauthorized access."
+    },
+    {
+      "term": "social engineering",
+      "definition": "Social engineering involves manipulating people into divulging confidential information or performing actions that compromise security.",
+      "laws": "Social engineering attacks are punishable under Section 66D of the IT Act.",
+      "solution": "1. Educate employees and individuals about social engineering tactics.\n2. Implement strong security policies.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any suspicious activity."
+    },
+    {
+      "term": "cryptojacking",
+      "definition": "Cryptojacking involves using someone else's computer resources to mine cryptocurrency without their consent.",
+      "laws": "Cryptojacking is punishable under Section 66 of the IT Act, which deals with computer-related offenses.",
+      "solution": "1. Use antivirus and anti-malware software.\n2. Monitor system performance for unusual activity.\n3. Report to the local cyber crime cell.\n4. Secure your systems and devices."
+    },
+    {
+      "term": "cyber slavery",
+      "definition": "Cyber slavery refers to the illegal practice of using the internet and digital technologies to exploit individuals for forced labor or services.",
+      "laws": "Cyber slavery is punishable under various laws depending on the country and context, including human trafficking laws, labor laws, and cyber crime laws.",
+      "solution": "1. Report suspected cases to local law enforcement or anti-trafficking organizations.\n2. Provide support and assistance to victims.\n3. Raise awareness about cyber slavery and its consequences.\n4. Advocate for stronger laws and enforcement against cyber slavery."
     }
-{
-   "term": "credit card fraud":
-        "definition": "Credit card fraud involves the unauthorized use of someone's credit card information to make purchases or withdraw money.",
-        "laws": "Credit card fraud is punishable under Section 420 of the IPC and Section 66C of the IT Act.",
-        "solution": "1. Report to your bank immediately.\n2. Cancel the compromised card and request a new one.\n3. Monitor your account for unauthorized transactions.\n4. Report to the local cyber crime cell."
-    },
-   {
-     "term": "child pornography": 
-        "definition": "Child pornography involves the distribution, possession, or creation of sexually explicit material involving minors.",
-        "laws": "Child pornography is punishable under the Protection of Children from Sexual Offences (POCSO) Act, 2012, and Section 67B of the IT Act.",
-       "term": "solution": "1. Report to the National Center for Missing & Exploited Children (NCMEC).\n2. Report to the local cyber crime cell.\n3. Do not share or distribute the material.\n4. Seek legal counsel if needed."
-    },
-  { 
-    "term": "data breach": 
-        "definition": "A data breach involves unauthorized access to and retrieval of sensitive data by an individual, group, or software system.",
-        "laws": "Data breaches are covered under Section 43A of the IT Act, which deals with compensation for failure to protect data.",
-        "solution": "1. Inform affected individuals and organizations.\n2. Secure the breached systems.\n3. Report to the local cyber crime cell.\n4. Implement stronger security measures."
-    },
-    {
-      "term": "cybersquatting": 
-        "definition": "Cybersquatting involves registering, trafficking in, or using a domain name with bad faith intent to profit from the goodwill of a trademark belonging to someone else.",
-        "laws": "Cybersquatting is punishable under the Trademark Act, 1999.",
-        "solution": "1. File a complaint with the World Intellectual Property Organization (WIPO).\n2. Report to the local cyber crime cell.\n3. Seek legal action to reclaim the domain."
-    },
-    {
-      "term": "revenge porn": 
-        "definition": "Revenge porn involves the distribution of sexually explicit images or videos of individuals without their consent.",
-        "laws": "Revenge porn is punishable under Section 66E of the IT Act, which deals with the violation of privacy.",
-        "solution": "1. Report to the platform where the content is shared.\n2. Seek legal counsel to take down the content.\n3. Report to the local cyber crime cell.\n4. Seek support from friends, family, or a counselor."
-    },
-    {
-      "term": "fake news": 
-        "definition": "Fake news involves the dissemination of false or misleading information presented as news.",
-        "laws": "Fake news is punishable under Section 505 of the IPC, which deals with statements conducing to public mischief.",
-        "solution": "1. Verify the information from reliable sources.\n2. Report to the platform where the fake news is shared.\n3. Report to the local cyber crime cell.\n4. Educate others about the misinformation."
-    },
-   {
-     "term": "online grooming": 
-        "definition": "Online grooming involves an adult befriending a child online with the intention of sexually abusing or exploiting them.",
-        "laws": "Online grooming is punishable under the POCSO Act, 2012.",
-        "solution": "1. Report to the platform where the grooming occurs.\n2. Report to the local cyber crime cell.\n3. Educate children about online safety.\n4. Seek support from friends, family, or a counselor."
-    },
-   {
-      "term": "SIM swapping": 
-        "definition": "SIM swapping involves fraudulently transferring a victim's phone number to a new SIM card to gain access to their accounts.",
-        "laws": "SIM swapping is punishable under Section 66D of the IT Act, which deals with cheating by personation.",
-        "solution": "1. Report to your mobile service provider.\n2. Secure your accounts with two-factor authentication.\n3. Report to the local cyber crime cell.\n4. Monitor your accounts for unauthorized activity."
-    },
-  { 
-    "term":  "cyber espionage": 
-        "definition": "Cyber espionage involves the use of cyber attacks to gain unauthorized access to confidential information, typically for political or military purposes.",
-        "laws": "Cyber espionage is punishable under Section 66F of the IT Act, which deals with cyber terrorism.",
-        "solution": "1. Strengthen security measures (e.g., encryption, firewalls).\n2. Report to the relevant government authorities.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any further unauthorized access."
-    },
-  {
-    "term":  "social engineering":
-        "definition": "Social engineering involves manipulating people into divulging confidential information or performing actions that compromise security.",
-        "laws": "Social engineering attacks are punishable under Section 66D of the IT Act.",
-        "solution": "1. Educate employees and individuals about social engineering tactics.\n2. Implement strong security policies.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any suspicious activity."
-    },
-    {
-      "term":"cryptojacking": 
-        "definition": "Cryptojacking involves using someone else's computer resources to mine cryptocurrency without their consent.",
-        "laws": "Cryptojacking is punishable under Section 66 of the IT Act, which deals with computer-related offenses.",
-        "solution": "1. Use antivirus and anti-malware software.\n2. Monitor system performance for unusual activity.\n3. Report to the local cyber crime cell.\n4. Secure your systems and devices."
-    },
- { 
-   "term": "cyber slavery":
-    "definition": "Cyber slavery refers to the illegal practice of using the internet and digital technologies to exploit individuals for forced labor or services.",
-    "laws": "Cyber slavery is punishable under various laws depending on the country and context, including human trafficking laws, labor laws, and cyber crime laws.",
-    "solution": "1. Report suspected cases to local law enforcement or anti-trafficking organizations.\n2. Provide support and assistance to victims.\n3. Raise awareness about cyber slavery and its consequences.\n4. Advocate for stronger laws and enforcement against cyber slavery."
-    }
-
   ]
 }
