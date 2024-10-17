@@ -1,0 +1,197 @@
+{
+  "cyber_attacks": [
+    {
+      "term": "Phishing",
+      "definition": "A cyber attack where attackers impersonate legitimate entities to trick users into providing sensitive information.",
+      "law": "Computer Fraud and Abuse Act (CFAA) in the U.S.; EU General Data Protection Regulation (GDPR) for data breaches resulting from phishing.",
+      "solution": "Use anti-phishing tools, email filters, employee awareness training, multi-factor authentication (MFA)."
+    },
+    {
+      "term": "Ransomware",
+      "definition": "A type of malware that encrypts a victim's files and demands a ransom for the decryption key.",
+      "law": "Cybersecurity Information Sharing Act (CISA) in the U.S.; EU NIS Directive for reporting incidents like ransomware.",
+      "solution": "Regular backups, patch management, ransomware-specific antivirus solutions, employee training on phishing avoidance."
+    },
+    {
+      "term": "Spyware",
+      "definition": "Malicious software that secretly collects user data and transmits it to a third party.",
+      "law": "U.S. Electronic Communications Privacy Act (ECPA); EU GDPR for unauthorized data collection.",
+      "solution": "Use anti-spyware software, regular security scans, enable app permissions control, update software regularly."
+    },
+    {
+      "term": "Trojan Horse",
+      "definition": "Malware that disguises itself as legitimate software but performs malicious activities once installed.",
+      "law": "CFAA in the U.S. prohibits unauthorized access to systems; UK Computer Misuse Act for unauthorized access or damage.",
+      "solution": "Use robust antivirus software, avoid downloading software from untrusted sources, enable system firewalls."
+    },
+    {
+      "term": "Worm",
+      "definition": "Self-replicating malware that spreads across networks without needing user intervention.",
+      "law": "Computer Misuse Act in the UK, CFAA in the U.S. covers network intrusion and damage by worms.",
+      "solution": "Network segmentation, up-to-date security patches, use of intrusion detection/prevention systems (IDS/IPS)."
+    },
+    {
+      "term": "Adware",
+      "definition": "Software that automatically displays or downloads advertising material and can also track user behavior.",
+      "law": "EU ePrivacy Directive regulates user tracking via cookies and consent for ads.",
+      "solution": "Use ad-blocking tools, anti-adware programs, review app permissions before installation."
+    },
+    {
+      "term": "Rootkit",
+      "definition": "Malware designed to provide unauthorized root-level access to a computer, often while hiding its presence.",
+      "law": "CFAA in the U.S. prohibits unauthorized access, GDPR fines for compromised data resulting from rootkit infections.",
+      "solution": "Run rootkit detection software, use secure boot, restrict user permissions, update software regularly."
+    },
+    {
+      "term": "Keylogger",
+      "definition": "A malicious program that records the keystrokes of users to capture sensitive information such as passwords.",
+      "law": "ECPA in the U.S.; GDPR, where keyloggers breach privacy rights.",
+      "solution": "Use anti-keylogger software, enable two-factor authentication (2FA), avoid suspicious downloads."
+    },
+    {
+      "term": "Distributed Denial of Service (DDoS)",
+      "definition": "An attack that overwhelms a server or network with a flood of traffic, rendering it unavailable to users.",
+      "law": "U.S. Computer Fraud and Abuse Act (CFAA); EU NIS Directive for critical infrastructure protection.",
+      "solution": "Deploy DDoS mitigation services, use rate limiting, implement firewalls and content delivery networks (CDNs)."
+    },
+    {
+      "term": "Man-in-the-Middle (MitM)",
+      "definition": "An attack where the attacker secretly intercepts and possibly alters the communication between two parties.",
+      "law": "ECPA in the U.S.; GDPR for breach of confidentiality.",
+      "solution": "Use encryption (e.g., HTTPS, VPNs), employ secure communication protocols, enable multifactor authentication (MFA)."
+    },
+    {
+      "term": "DNS Spoofing",
+      "definition": "An attack where DNS records are altered to redirect users to fraudulent websites.",
+      "law": "Computer Misuse Act (UK); CFAA (U.S.) for unauthorized tampering with DNS records.",
+      "solution": "Use DNSSEC to secure DNS queries, implement firewalls, conduct regular security audits."
+    },
+    {
+      "term": "SQL Injection",
+      "definition": "A web-based attack that exploits vulnerabilities in SQL databases, allowing attackers to manipulate or steal data.",
+      "law": "EU GDPR for breaches of personal data; CFAA (U.S.) for unauthorized data access.",
+      "solution": "Use parameterized queries, perform input validation, sanitize inputs, enable web application firewalls (WAF)."
+    },
+    {
+      "term": "Cross-Site Scripting (XSS)",
+      "definition": "An attack where malicious scripts are injected into trusted websites, potentially stealing session cookies or other sensitive data.",
+      "law": "GDPR for data breaches; Computer Misuse Act (UK) for unauthorized exploitation of web vulnerabilities.",
+      "solution": "Sanitize user input, use Content Security Policy (CSP), validate and escape data, use secure coding practices."
+    },
+    {
+      "term": "Cross-Site Request Forgery (CSRF)",
+      "definition": "An attack that tricks users into performing unwanted actions on websites where they are authenticated.",
+      "law": "GDPR for unauthorized actions leading to data breaches; CFAA in cases of unauthorized access.",
+      "solution": "Use anti-CSRF tokens, verify user sessions before processing requests, employ same-site cookie attributes."
+    },
+    {
+      "term": "Brute Force Attack",
+      "definition": "An attack where multiple password combinations are tried until the correct one is found, often through automated tools.",
+      "law": "CFAA (U.S.) and GDPR for unauthorized access; Computer Misuse Act (UK).",
+      "solution": "Enforce strong password policies, implement account lockout mechanisms, use MFA."
+    },
+    {
+      "term": "Rainbow Table Attack",
+      "definition": "An attack that uses precomputed hash tables to crack encrypted passwords.",
+      "law": "CFAA for unauthorized access; GDPR for compromised user data.",
+      "solution": "Use salted hashes for password storage, implement MFA, limit login attempts."
+    },
+    {
+      "term": "USB Drop Attack",
+      "definition": "A physical attack where infected USB devices are left in public areas, hoping users will plug them into their systems.",
+      "law": "Computer Misuse Act (UK) for unauthorized access; CFAA (U.S.).",
+      "solution": "Disable USB ports, educate users about the dangers of unknown USBs, use endpoint security software."
+    },
+    {
+      "term": "Eavesdropping",
+      "definition": "An attack where communication between parties is intercepted without consent, often to steal confidential information.",
+      "law": "ECPA (U.S.) prohibits interception of electronic communication without consent; GDPR applies in cases of data interception.",
+      "solution": "Use end-to-end encryption (e.g., TLS for websites), secure wireless networks (WPA3), employ VPNs for secure communication."
+    },
+    {
+      "term": "Session Hijacking",
+      "definition": "An attack where an attacker takes over a user's session after they log into a service, often to gain unauthorized access.",
+      "law": "GDPR for data breach responsibilities; CFAA in the U.S.",
+      "solution": "Use secure cookies, HTTPS for all pages, implement MFA, and use short session expiry times."
+    },
+    {
+      "term": "Clickjacking",
+      "definition": "An attack where malicious links or buttons are disguised as legitimate actions to trick users into clicking on them.",
+      "law": "GDPR applies when user data is compromised; CFAA for deceptive online practices.",
+      "solution": "Use X-Frame-Options header to prevent clickjacking, use Content Security Policy (CSP), educate users on suspicious behavior."
+    }
+{
+   "term": "credit card fraud":
+        "definition": "Credit card fraud involves the unauthorized use of someone's credit card information to make purchases or withdraw money.",
+        "laws": "Credit card fraud is punishable under Section 420 of the IPC and Section 66C of the IT Act.",
+        "solution": "1. Report to your bank immediately.\n2. Cancel the compromised card and request a new one.\n3. Monitor your account for unauthorized transactions.\n4. Report to the local cyber crime cell."
+    },
+   {
+     "term": "child pornography": 
+        "definition": "Child pornography involves the distribution, possession, or creation of sexually explicit material involving minors.",
+        "laws": "Child pornography is punishable under the Protection of Children from Sexual Offences (POCSO) Act, 2012, and Section 67B of the IT Act.",
+       "term": "solution": "1. Report to the National Center for Missing & Exploited Children (NCMEC).\n2. Report to the local cyber crime cell.\n3. Do not share or distribute the material.\n4. Seek legal counsel if needed."
+    },
+  { 
+    "term": "data breach": 
+        "definition": "A data breach involves unauthorized access to and retrieval of sensitive data by an individual, group, or software system.",
+        "laws": "Data breaches are covered under Section 43A of the IT Act, which deals with compensation for failure to protect data.",
+        "solution": "1. Inform affected individuals and organizations.\n2. Secure the breached systems.\n3. Report to the local cyber crime cell.\n4. Implement stronger security measures."
+    },
+    {
+      "term": "cybersquatting": 
+        "definition": "Cybersquatting involves registering, trafficking in, or using a domain name with bad faith intent to profit from the goodwill of a trademark belonging to someone else.",
+        "laws": "Cybersquatting is punishable under the Trademark Act, 1999.",
+        "solution": "1. File a complaint with the World Intellectual Property Organization (WIPO).\n2. Report to the local cyber crime cell.\n3. Seek legal action to reclaim the domain."
+    },
+    {
+      "term": "revenge porn": 
+        "definition": "Revenge porn involves the distribution of sexually explicit images or videos of individuals without their consent.",
+        "laws": "Revenge porn is punishable under Section 66E of the IT Act, which deals with the violation of privacy.",
+        "solution": "1. Report to the platform where the content is shared.\n2. Seek legal counsel to take down the content.\n3. Report to the local cyber crime cell.\n4. Seek support from friends, family, or a counselor."
+    },
+    {
+      "term": "fake news": 
+        "definition": "Fake news involves the dissemination of false or misleading information presented as news.",
+        "laws": "Fake news is punishable under Section 505 of the IPC, which deals with statements conducing to public mischief.",
+        "solution": "1. Verify the information from reliable sources.\n2. Report to the platform where the fake news is shared.\n3. Report to the local cyber crime cell.\n4. Educate others about the misinformation."
+    },
+   {
+     "term": "online grooming": 
+        "definition": "Online grooming involves an adult befriending a child online with the intention of sexually abusing or exploiting them.",
+        "laws": "Online grooming is punishable under the POCSO Act, 2012.",
+        "solution": "1. Report to the platform where the grooming occurs.\n2. Report to the local cyber crime cell.\n3. Educate children about online safety.\n4. Seek support from friends, family, or a counselor."
+    },
+   {
+      "term": "SIM swapping": 
+        "definition": "SIM swapping involves fraudulently transferring a victim's phone number to a new SIM card to gain access to their accounts.",
+        "laws": "SIM swapping is punishable under Section 66D of the IT Act, which deals with cheating by personation.",
+        "solution": "1. Report to your mobile service provider.\n2. Secure your accounts with two-factor authentication.\n3. Report to the local cyber crime cell.\n4. Monitor your accounts for unauthorized activity."
+    },
+  { 
+    "term":  "cyber espionage": 
+        "definition": "Cyber espionage involves the use of cyber attacks to gain unauthorized access to confidential information, typically for political or military purposes.",
+        "laws": "Cyber espionage is punishable under Section 66F of the IT Act, which deals with cyber terrorism.",
+        "solution": "1. Strengthen security measures (e.g., encryption, firewalls).\n2. Report to the relevant government authorities.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any further unauthorized access."
+    },
+  {
+    "term":  "social engineering":
+        "definition": "Social engineering involves manipulating people into divulging confidential information or performing actions that compromise security.",
+        "laws": "Social engineering attacks are punishable under Section 66D of the IT Act.",
+        "solution": "1. Educate employees and individuals about social engineering tactics.\n2. Implement strong security policies.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any suspicious activity."
+    },
+    {
+      "term":"cryptojacking": 
+        "definition": "Cryptojacking involves using someone else's computer resources to mine cryptocurrency without their consent.",
+        "laws": "Cryptojacking is punishable under Section 66 of the IT Act, which deals with computer-related offenses.",
+        "solution": "1. Use antivirus and anti-malware software.\n2. Monitor system performance for unusual activity.\n3. Report to the local cyber crime cell.\n4. Secure your systems and devices."
+    },
+ { 
+   "term": "cyber slavery":
+    "definition": "Cyber slavery refers to the illegal practice of using the internet and digital technologies to exploit individuals for forced labor or services.",
+    "laws": "Cyber slavery is punishable under various laws depending on the country and context, including human trafficking laws, labor laws, and cyber crime laws.",
+    "solution": "1. Report suspected cases to local law enforcement or anti-trafficking organizations.\n2. Provide support and assistance to victims.\n3. Raise awareness about cyber slavery and its consequences.\n4. Advocate for stronger laws and enforcement against cyber slavery."
+    }
+
+  ]
+}
