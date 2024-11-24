@@ -1,175 +1,238 @@
 {
-  "cyber_attacks": [
-    {
-      "name": "Phishing",
-      "definition": "An attack where attackers impersonate a legitimate entity to trick users into providing sensitive information, often through deceptive emails or messages.",
-      "laws_in_india": [
+    "cyber_attacks": [
         {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66C - Identity Theft, Section 66D - Cheating by Personation"
+            "term": "Phishing",
+            "definition": "An attack where attackers impersonate a legitimate entity to trick users into providing sensitive information, often through deceptive emails or messages.",
+            "law": "Information Technology Act, 2000 (Section 66C - Identity Theft, Section 66D - Cheating by Personation); Indian Penal Code, 1860 (Section 419 - Punishment for Cheating by Personation, Section 420 - Cheating and Dishonestly Inducing Delivery of Property)",
+            "solution": "Educate employees and users on identifying phishing emails, such as checking sender addresses and avoiding suspicious links.; Use email filters and spam protection tools to reduce phishing attempts.; Implement multi-factor authentication (MFA) to protect against unauthorized access."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 419 - Punishment for Cheating by Personation, Section 420 - Cheating and Dishonestly Inducing Delivery of Property"
-        }
-      ],
-      "solution": {
-        "awareness_training": "Educate employees and users on identifying phishing emails, such as checking sender addresses and avoiding suspicious links.",
-        "email_security": "Use email filters and spam protection tools to reduce phishing attempts.",
-        "multi_factor_authentication": "Implement multi-factor authentication (MFA) to protect against unauthorized access."
-      }
-    },
-    {
-      "name": "Malware Attack",
-      "definition": "A form of attack that involves malicious software like viruses, worms, trojans, or spyware, aimed at disrupting or gaining unauthorized access to systems.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 43 - Penalty for Damage to Computer, Section 66 - Computer-Related Offences"
+            "term": "Malware Attack",
+            "definition": "A form of attack that involves malicious software like viruses, worms, trojans, or spyware, aimed at disrupting or gaining unauthorized access to systems.",
+            "law": "Information Technology Act, 2000 (Section 43 - Penalty for Damage to Computer, Section 66 - Computer-Related Offences); Indian Penal Code, 1860 (Section 426 - Punishment for Mischief)",
+            "solution": "Install and update antivirus or anti-malware software regularly to protect against known threats.; Regularly update all system software to patch vulnerabilities and reduce malware risks.; Avoid downloading or opening attachments from unknown sources and use trusted applications only."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 426 - Punishment for Mischief"
-        }
-      ],
-      "solution": {
-        "antivirus_software": "Install and update antivirus or anti-malware software regularly to protect against known threats.",
-        "software_updates": "Regularly update all system software to patch vulnerabilities and reduce malware risks.",
-        "safe_browsing_practices": "Avoid downloading or opening attachments from unknown sources and use trusted applications only."
-      }
-    },
-    {
-      "name": "Ransomware Attack",
-      "definition": "A type of malware that encrypts the victim's files and demands a ransom payment for decryption.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66 - Computer-Related Offences, Section 66E - Punishment for Violation of Privacy"
+            "term": "Ransomware Attack",
+            "definition": "A type of malware that encrypts the victim's files and demands a ransom payment for decryption.",
+            "law": "Information Technology Act, 2000 (Section 66 - Computer-Related Offences, Section 66E - Punishment for Violation of Privacy); Indian Penal Code, 1860 (Section 384 - Punishment for Extortion)",
+            "solution": "Regularly back up critical data and ensure it is stored securely and offline.; Use endpoint protection and monitoring tools to detect ransomware threats early.; Train users to avoid clicking on unverified links or downloading suspicious attachments."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 384 - Punishment for Extortion"
-        }
-      ],
-      "solution": {
-        "data_backup": "Regularly back up critical data and ensure it is stored securely and offline.",
-        "endpoint_protection": "Use endpoint protection and monitoring tools to detect ransomware threats early.",
-        "user_training": "Train users to avoid clicking on unverified links or downloading suspicious attachments."
-      }
-    },
-    {
-      "name": "Denial of Service (DoS) Attack",
-      "definition": "An attack that attempts to make a machine or network resource unavailable to its intended users by overwhelming it with traffic.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66 - Computer-Related Offences"
+            "term": "Denial of Service (DoS) Attack",
+            "definition": "An attack that attempts to make a machine or network resource unavailable to its intended users by overwhelming it with traffic.",
+            "law": "Information Technology Act, 2000 (Section 66 - Computer-Related Offences); Indian Penal Code, 1860 (Section 268 - Public Nuisance)",
+            "solution": "Use anti-DDoS services to detect and mitigate denial-of-service attacks.; Set up firewalls and implement rate limiting to manage traffic surges.; Monitor network traffic for unusual activity and set up alerts for potential attacks."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 268 - Public Nuisance"
-        }
-      ],
-      "solution": {
-        "anti_ddos_services": "Use anti-DDoS services to detect and mitigate denial-of-service attacks.",
-        "firewalls_and_rate_limiting": "Set up firewalls and implement rate limiting to manage traffic surges.",
-        "traffic_monitoring": "Monitor network traffic for unusual activity and set up alerts for potential attacks."
-      }
-    },
-    {
-      "name": "SQL Injection",
-      "definition": "An attack where malicious SQL statements are inserted into a database query, potentially allowing attackers unauthorized access to data.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66 - Computer-Related Offences"
+            "term": "SQL Injection",
+            "definition": "An attack where malicious SQL statements are inserted into a database query, potentially allowing attackers unauthorized access to data.",
+            "law": "Information Technology Act, 2000 (Section 66 - Computer-Related Offences); Indian Penal Code, 1860 (Section 425 - Punishment for Mischief)",
+            "solution": "Use parameterized queries or prepared statements to prevent SQL injection vulnerabilities.; Perform regular code reviews and audits to ensure secure database interaction.; Deploy web application firewalls (WAF) to filter and monitor SQL injection attempts."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 425 - Punishment for Mischief"
-        }
-      ],
-      "solution": {
-        "parameterized_queries": "Use parameterized queries or prepared statements to prevent SQL injection vulnerabilities.",
-        "code_review": "Perform regular code reviews and audits to ensure secure database interaction.",
-        "web_application_firewalls": "Deploy web application firewalls (WAF) to filter and monitor SQL injection attempts."
-      }
-    },
-    {
-      "name": "Man-in-the-Middle (MitM) Attack",
-      "definition": "An attack where an attacker secretly intercepts and relays messages between two parties, who believe they are directly communicating.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66 - Computer-Related Offences"
+            "term": "Man-in-the-Middle (MitM) Attack",
+            "definition": "An attack where an attacker secretly intercepts and relays messages between two parties, who believe they are directly communicating.",
+            "law": "Information Technology Act, 2000 (Section 66 - Computer-Related Offences); Indian Penal Code, 1860 (Section 379 - Theft, Section 403 - Dishonest Misappropriation of Property)",
+            "solution": "Use strong encryption protocols such as HTTPS and SSL/TLS to secure communications.; Implement secure authentication methods like two-factor authentication.; Advise users to avoid conducting sensitive transactions over public Wi-Fi."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 379 - Theft, Section 403 - Dishonest Misappropriation of Property"
-        }
-      ],
-      "solution": {
-        "encryption_protocols": "Use strong encryption protocols such as HTTPS and SSL/TLS to secure communications.",
-        "authentication_methods": "Implement secure authentication methods like two-factor authentication.",
-        "public_wifi_warning": "Advise users to avoid conducting sensitive transactions over public Wi-Fi."
-      }
-    },
-    {
-      "name": "Password Attack",
-      "definition": "An attack involving methods such as brute force, credential stuffing, or dictionary attacks to obtain passwords for unauthorized access.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66C - Identity Theft"
+            "term": "Password Attack",
+            "definition": "An attack involving methods such as brute force, credential stuffing, or dictionary attacks to obtain passwords for unauthorized access.",
+            "law": "Information Technology Act, 2000 (Section 66C - Identity Theft); Indian Penal Code, 1860 (Section 420 - Cheating and Dishonestly Inducing Delivery of Property)",
+            "solution": "Implement a strong password policy, requiring complex and unique passwords.; Use multi-factor authentication to add an extra layer of security.; Encourage the use of password managers to store and manage complex passwords securely."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 420 - Cheating and Dishonestly Inducing Delivery of Property"
-        }
-      ],
-      "solution": {
-        "strong_password_policy": "Implement a strong password policy, requiring complex and unique passwords.",
-        "multi_factor_authentication": "Use multi-factor authentication to add an extra layer of security.",
-        "password_manager": "Encourage the use of password managers to store and manage complex passwords securely."
-      }
-    },
-    {
-      "name": "Social Engineering Attack",
-      "definition": "An attack that exploits human psychology to deceive individuals into providing confidential information or access to systems.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66D - Cheating by Personation"
+            "term": "Social Engineering Attack",
+            "definition": "An attack that exploits human psychology to deceive individuals into providing confidential information or access to systems.",
+            "law": "Information Technology Act, 2000 (Section 66D - Cheating by Personation); Indian Penal Code, 1860 (Section 415 - Definition of Cheating)",
+            "solution": "Conduct regular training for employees on recognizing social engineering tactics.; Implement strict identity verification processes for sensitive information requests.; Develop and enforce security policies for handling sensitive data and communications."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 415 - Definition of Cheating"
-        }
-      ],
-      "solution": {
-        "employee_training": "Conduct regular training for employees on recognizing social engineering tactics.",
-        "verification_process": "Implement strict identity verification processes for sensitive information requests.",
-        "security_policies": "Develop and enforce security policies for handling sensitive data and communications."
-      }
-    },
-    {
-      "name": "Zero-Day Exploit",
-      "definition": "An attack that takes advantage of a software vulnerability before it is known to the software vendor and before a patch is available.",
-      "laws_in_india": [
-        {
-          "law": "Information Technology Act, 2000",
-          "sections": "Section 66 - Computer-Related Offences"
+            "term": "Zero-Day Exploit",
+            "definition": "An attack that takes advantage of a software vulnerability before it is known to the software vendor and before a patch is available.",
+            "law": "Information Technology Act, 2000 (Section 66 - Computer-Related Offences); Indian Penal Code, 1860 (Section 426 - Punishment for Mischief)",
+            "solution": "Use threat intelligence services to stay informed of new vulnerabilities and potential zero-day exploits.; Regularly update software and implement a robust patch management strategy.; Deploy intrusion detection systems to monitor for unusual activity and detect potential exploits."
         },
         {
-          "law": "Indian Penal Code, 1860",
-          "sections": "Section 426 - Punishment for Mischief"
+            "term": "Ransomware",
+            "definition": "A type of malware that encrypts a victim's files and demands a ransom for the decryption key.",
+            "law": "Cybersecurity Information Sharing Act (CISA) in the U.S.; EU NIS Directive for reporting incidents like ransomware.",
+            "solution": "Regular backups, patch management, ransomware-specific antivirus solutions, employee training on phishing avoidance."
+        },
+        {
+            "term": "Spyware",
+            "definition": "Malicious software that secretly collects user data and transmits it to a third party.",
+            "law": "U.S. Electronic Communications Privacy Act (ECPA); EU GDPR for unauthorized data collection.",
+            "solution": "Use anti-spyware software, regular security scans, enable app permissions control, update software regularly."
+        },
+        {
+            "term": "Trojan Horse",
+            "definition": "Malware that disguises itself as legitimate software but performs malicious activities once installed.",
+            "law": "CFAA in the U.S. prohibits unauthorized access to systems; UK Computer Misuse Act for unauthorized access or damage.",
+            "solution": "Use robust antivirus software, avoid downloading software from untrusted sources, enable system firewalls."
+        },
+        {
+            "term": "Worm",
+            "definition": "Self-replicating malware that spreads across networks without needing user intervention.",
+            "law": "Computer Misuse Act in the UK, CFAA in the U.S. covers network intrusion and damage by worms.",
+            "solution": "Network segmentation, up-to-date security patches, use of intrusion detection/prevention systems (IDS/IPS)."
+        },
+        {
+            "term": "Adware",
+            "definition": "Software that automatically displays or downloads advertising material and can also track user behavior.",
+            "law": "EU ePrivacy Directive regulates user tracking via cookies and consent for ads.",
+            "solution": "Use ad-blocking tools, anti-adware programs, review app permissions before installation."
+        },
+        {
+            "term": "Rootkit",
+            "definition": "Malware designed to provide unauthorized root-level access to a computer, often while hiding its presence.",
+            "law": "CFAA in the U.S. prohibits unauthorized access, GDPR fines for compromised data resulting from rootkit infections.",
+            "solution": "Run rootkit detection software, use secure boot, restrict user permissions, update software regularly."
+        },
+        {
+            "term": "Keylogger",
+            "definition": "A malicious program that records the keystrokes of users to capture sensitive information such as passwords.",
+            "law": "ECPA in the U.S.; GDPR, where keyloggers breach privacy rights.",
+            "solution": "Use anti-keylogger software, enable two-factor authentication (2FA), avoid suspicious downloads."
+        },
+        {
+            "term": "Distributed Denial of Service (DDoS)",
+            "definition": "An attack that overwhelms a server or network with a flood of traffic, rendering it unavailable to users.",
+            "law": "U.S. Computer Fraud and Abuse Act (CFAA); EU NIS Directive for critical infrastructure protection.",
+            "solution": "Deploy DDoS mitigation services, use rate limiting, implement firewalls and content delivery networks (CDNs)."
+        },
+        {
+            "term": "Man-in-the-Middle (MitM)",
+            "definition": "An attack where the attacker secretly intercepts and possibly alters the communication between two parties.",
+            "law": "ECPA in the U.S.; GDPR for breach of confidentiality.",
+            "solution": "Use encryption (e.g., HTTPS, VPNs), employ secure communication protocols, enable multifactor authentication (MFA)."
+        },
+        {
+            "term": "DNS Spoofing",
+            "definition": "An attack where DNS records are altered to redirect users to fraudulent websites.",
+            "law": "Computer Misuse Act (UK); CFAA (U.S.) for unauthorized tampering with DNS records.",
+            "solution": "Use DNSSEC to secure DNS queries, implement firewalls, conduct regular security audits."
+        },
+        {
+            "term": "Cross-Site Scripting (XSS)",
+            "definition": "An attack where malicious scripts are injected into trusted websites, potentially stealing session cookies or other sensitive data.",
+            "law": "GDPR for data breaches; Computer Misuse Act (UK) for unauthorized exploitation of web vulnerabilities.",
+            "solution": "Sanitize user input, use Content Security Policy (CSP), validate and escape data, use secure coding practices."
+        },
+        {
+            "term": "Cross-Site Request Forgery (CSRF)",
+            "definition": "An attack that tricks users into performing unwanted actions on websites where they are authenticated.",
+            "law": "GDPR for unauthorized actions leading to data breaches; CFAA in cases of unauthorized access.",
+            "solution": "Use anti-CSRF tokens, verify user sessions before processing requests, employ same-site cookie attributes."
+        },
+        {
+            "term": "Brute Force Attack",
+            "definition": "An attack where multiple password combinations are tried until the correct one is found, often through automated tools.",
+            "law": "CFAA (U.S.) and GDPR for unauthorized access; Computer Misuse Act (UK).",
+            "solution": "Enforce strong password policies, implement account lockout mechanisms, use MFA."
+        },
+        {
+            "term": "Rainbow Table Attack",
+            "definition": "An attack that uses precomputed hash tables to crack encrypted passwords.",
+            "law": "CFAA for unauthorized access; GDPR for compromised user data.",
+            "solution": "Use salted hashes for password storage, implement MFA, limit login attempts."
+        },
+        {
+            "term": "USB Drop Attack",
+            "definition": "A physical attack where infected USB devices are left in public areas, hoping users will plug them into their systems.",
+            "law": "Computer Misuse Act (UK) for unauthorized access; CFAA (U.S.).",
+            "solution": "Disable USB ports, educate users about the dangers of unknown USBs, use endpoint security software."
+        },
+        {
+            "term": "Eavesdropping",
+            "definition": "An attack where communication between parties is intercepted without consent, often to steal confidential information.",
+            "law": "ECPA (U.S.) prohibits interception of electronic communication without consent; GDPR applies in cases of data interception.",
+            "solution": "Use end-to-end encryption (e.g., TLS for websites), secure wireless networks (WPA3), employ VPNs for secure communication."
+        },
+        {
+            "term": "Session Hijacking",
+            "definition": "An attack where an attacker takes over a user's session after they log into a service, often to gain unauthorized access.",
+            "law": "GDPR for data breach responsibilities; CFAA in the U.S.",
+            "solution": "Use secure cookies, HTTPS for all pages, implement MFA, and use short session expiry times."
+        },
+        {
+            "term": "Clickjacking",
+            "definition": "An attack where malicious links or buttons are disguised as legitimate actions to trick users into clicking on them.",
+            "law": "GDPR applies when user data is compromised; CFAA for deceptive online practices.",
+            "solution": "Use X-Frame-Options header to prevent clickjacking, use Content Security Policy (CSP), educate users on suspicious behavior."
+        },
+        {
+            "term": "credit card fraud",
+            "definition": "Credit card fraud involves the unauthorized use of someone's credit card information to make purchases or withdraw money.",
+            "laws": "Credit card fraud is punishable under Section 420 of the IPC and Section 66C of the IT Act.",
+            "solution": "1. Report to your bank immediately.\n2. Cancel the compromised card and request a new one.\n3. Monitor your account for unauthorized transactions.\n4. Report to the local cyber crime cell."
+        },
+        {
+            "term": "child pornography",
+            "definition": "Child pornography involves the distribution, possession, or creation of sexually explicit material involving minors.",
+            "laws": "Child pornography is punishable under the Protection of Children from Sexual Offences (POCSO) Act, 2012, and Section 67B of the IT Act.",
+            "solution": "1. Report to the National Center for Missing & Exploited Children (NCMEC).\n2. Report to the local cyber crime cell.\n3. Do not share or distribute the material.\n4. Seek legal counsel if needed."
+        },
+        {
+            "term": "data breach",
+            "definition": "A data breach involves unauthorized access to and retrieval of sensitive data by an individual, group, or software system.",
+            "laws": "Data breaches are covered under Section 43A of the IT Act, which deals with compensation for failure to protect data.",
+            "solution": "1. Inform affected individuals and organizations.\n2. Secure the breached systems.\n3. Report to the local cyber crime cell.\n4. Implement stronger security measures."
+        },
+        {
+            "term": "cybersquatting",
+            "definition": "Cybersquatting involves registering, trafficking in, or using a domain name with bad faith intent to profit from the goodwill of a trademark belonging to someone else.",
+            "laws": "Cybersquatting is punishable under the Trademark Act, 1999.",
+            "solution": "1. File a complaint with the World Intellectual Property Organization (WIPO).\n2. Report to the local cyber crime cell.\n3. Seek legal action to reclaim the domain."
+        },
+        {
+            "term": "revenge porn",
+            "definition": "Revenge porn involves the distribution of sexually explicit images or videos of individuals without their consent.",
+            "laws": "Revenge porn is punishable under Section 66E of the IT Act, which deals with the violation of privacy.",
+            "solution": "1. Report to the platform where the content is shared.\n2. Seek legal counsel to take down the content.\n3. Report to the local cyber crime cell.\n4. Seek support from friends, family, or a counselor."
+        },
+        {
+            "term": "fake news",
+            "definition": "Fake news involves the dissemination of false or misleading information presented as news.",
+            "laws": "Fake news is punishable under Section 505 of the IPC, which deals with statements conducing to public mischief.",
+            "solution": "1. Verify the information from reliable sources.\n2. Report to the platform where the fake news is shared.\n3. Report to the local cyber crime cell.\n4. Educate others about the misinformation."
+        },
+        {
+            "term": "online grooming",
+            "definition": "Online grooming involves an adult befriending a child online with the intention of sexually abusing or exploiting them.",
+            "laws": "Online grooming is punishable under the POCSO Act, 2012.",
+            "solution": "1. Report to the platform where the grooming occurs.\n2. Report to the local cyber crime cell.\n3. Educate children about online safety.\n4. Seek support from friends, family, or a counselor."
+        },
+        {
+            "term": "SIM swapping",
+            "definition": "SIM swapping involves fraudulently transferring a victim's phone number to a new SIM card to gain access to their accounts.",
+            "laws": "SIM swapping is punishable under Section 66D of the IT Act, which deals with cheating by personation.",
+            "solution": "1. Report to your mobile service provider.\n2. Secure your accounts with two-factor authentication.\n3. Report to the local cyber crime cell.\n4. Monitor your accounts for unauthorized activity."
+        },
+        {
+            "term": "cyber espionage",
+            "definition": "Cyber espionage involves the use of cyber attacks to gain unauthorized access to confidential information, typically for political or military purposes.",
+            "laws": "Cyber espionage is punishable under Section 66F of the IT Act, which deals with cyber terrorism.",
+            "solution": "1. Strengthen security measures (e.g., encryption, firewalls).\n2. Report to the relevant government authorities.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any further unauthorized access."
+        },
+        {
+            "term": "social engineering",
+            "definition": "Social engineering involves manipulating people into divulging confidential information or performing actions that compromise security.",
+            "laws": "Social engineering attacks are punishable under Section 66D of the IT Act.",
+            "solution": "1. Educate employees and individuals about social engineering tactics.\n2. Implement strong security policies.\n3. Report to the local cyber crime cell.\n4. Monitor systems for any suspicious activity."
+        },
+        {
+            "term": "cryptojacking",
+            "definition": "Cryptojacking involves using someone else's computer resources to mine cryptocurrency without their consent.",
+            "laws": "Cryptojacking is punishable under Section 66 of the IT Act, which deals with computer-related offenses.",
+            "solution": "1. Use antivirus and anti-malware software.\n2. Monitor system performance for unusual activity.\n3. Report to the local cyber crime cell.\n4. Secure your systems and devices."
+        },
+        {
+            "term": "cyber slavery",
+            "definition": "Cyber slavery refers to the illegal practice of using the internet and digital technologies to exploit individuals for forced labor or services.",
+            "laws": "Cyber slavery is punishable under various laws depending on the country and context, including human trafficking laws, labor laws, and cyber crime laws.",
+            "solution": "1. Report suspected cases to local law enforcement or anti-trafficking organizations.\n2. Provide support and assistance to victims.\n3. Raise awareness about cyber slavery and its consequences.\n4. Advocate for stronger laws and enforcement against cyber slavery."
         }
-      ],
-      "solution": {
-        "threat_intelligence": "Use threat intelligence services to stay informed of new vulnerabilities and potential zero-day exploits.",
-        "patch_management": "Regularly update software and implement a robust patch management strategy.",
-        "intrusion_detection_system": "Deploy intrusion detection systems to monitor for unusual activity and detect potential exploits."
-      }
-    }
-  ]
+    ]
 }
